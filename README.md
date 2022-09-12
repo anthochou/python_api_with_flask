@@ -1,9 +1,9 @@
-##GETTING STARTED
+## GETTING STARTED
 
 This project implements a URL shortening service using Python and Flask. The service exposes two endpoints encode/decode to 
 encode/decode URLs. Encoded URLs are case sensitive.
 
-##PREREQUISITES
+## PREREQUISITES
 
 Clone the project from gitHub. The project requires to install the following libraries: 
 
@@ -13,7 +13,7 @@ You can install them by running:
 
 >  pip install -r requirements.txt
 
-##RUN THE APIs
+## RUN THE APIs
 
 You need first to run the Flask application by running:
 
@@ -44,7 +44,7 @@ To decode a URL (replace the URL below by the encoded URL from above):
   print(response)
 ```
 
-##TEST
+## TEST
 
 A number of unit tests are implemented: encode/decode a URL, URL format, encode/decode errors. 
 
@@ -54,7 +54,7 @@ You can run the tests by running:
 
 It should collect and executes all the tests defined in tests/test_api.py
 
-##IMPROVEMENTS
+## IMPROVEMENTS
 
 A number of improvements can be implemented/investigated:
 
